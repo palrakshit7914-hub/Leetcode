@@ -1,5 +1,5 @@
 class Solution(object):
-    def longestsubstring(self,s):
+    def lengthOfLongestSubstring(self,s):
         
         char_map ={}
         max_length = 0
@@ -13,4 +13,6 @@ class Solution(object):
 
             char_map[current_char] = right
             max_length = max(max_length, right - left + 1)
+
+        return max_length
 
