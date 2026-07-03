@@ -16,3 +16,6 @@ class Solution(object):
 
         return max_length
 
+s = "abcabcbb"
+solution = Solution()
+print(solution.lengthOfLongestSubstring(s))
